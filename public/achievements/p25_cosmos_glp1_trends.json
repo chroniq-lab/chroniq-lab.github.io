@@ -1,0 +1,14 @@
+{
+  "id": 20250908,
+  "slug": "cosmos_glp1_trends",
+  "shortTitle": "GLP-1 Receptor Agonist Prescribing Trends",
+  "longTitle": "Prescribing Trends of Glucagon-Like Peptide 1 Receptor Agonists for Type 2 Diabetes or Obesity",
+  "date": "2025-09-08",
+  "link": "https://10.1001/jamanetworkopen.2025.40890",
+  "youtubeLink": "",
+  "image": "",
+  "teamMembers": ["Jithin Sam Varghese"],
+  "dataSources": ["Epic Cosmos"],
+  "summary": "Excellent analysis of prescribing trends for GLP-1 receptor agonists in patients with type 2 diabetes or obesity using electronic health records data, led by Piaopiao Li.",
+  "category": "Research Publication"
+}

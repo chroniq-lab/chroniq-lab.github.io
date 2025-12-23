@@ -1,0 +1,14 @@
+{
+  "id": 20251223,
+  "slug": "diabetes_subtypes_cohorts",
+  "shortTitle": "Subtypes of Type 2 Diabetes and Risk",
+  "longTitle": "Subtypes of Newly Diagnosed Type 2 Diabetes and Risk of Complications: Analysis of Electronic Health Records in the United States",
+  "date": "2025-12-23",
+  "link": "https://www.medrxiv.org/content/10.1101/2024.10.08.24315128v2",
+  "youtubeLink": "",
+  "image": "",
+  "teamMembers": ["Zhongyu Li", "Jithin Sam Varghese"],
+  "dataSources": ["Epic Cosmos", "Cohorts"],
+  "summary": "Analysis of newly diagnosed type 2 diabetes subtypes and their association with complication risk using electronic health records data from the United States, published in Diabetologia.",
+  "category": "Research Publication"
+}

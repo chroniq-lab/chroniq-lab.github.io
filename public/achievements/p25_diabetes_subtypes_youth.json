@@ -1,0 +1,14 @@
+{
+  "id": 20250908,
+  "slug": "diabetes_subtypes_youth",
+  "shortTitle": "Data-driven Subtypes of Youth-onset Type 2 Diabetes",
+  "longTitle": "Data-driven subtypes of newly diagnosed youth-onset type 2 diabetes in the USA",
+  "date": "2025-09-08",
+  "link": "https://doi.org/10.1016/j.jdiacomp.2025.109207",
+  "youtubeLink": "",
+  "image": "",
+  "teamMembers": ["Jiali Guo", "Zhongyu Li", "Jithin Sam Varghese"],
+  "dataSources": ["Cohorts"],
+  "summary": "Data-driven identification and characterization of subtypes in newly diagnosed youth-onset type 2 diabetes using US electronic health records, published in Journal of Diabetes and Its Complications.",
+  "category": "Research Publication"
+}

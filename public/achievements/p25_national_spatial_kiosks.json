@@ -1,0 +1,14 @@
+{
+  "id": 20250806,
+  "slug": "national_spatial_kiosks",
+  "shortTitle": "Blood Pressure Measurements from Health Kiosks",
+  "longTitle": "Blood Pressure Measurements from Self-Service Health Kiosks in US Retail Stores, 2017 – 2024",
+  "date": "2025-08-06",
+  "link": "https://doi.org/10.1001/jamacardio.2025.2487",
+  "youtubeLink": "",
+  "image": "",
+  "teamMembers": ["Jithin Sam Varghese"],
+  "dataSources": ["Kiosk"],
+  "summary": "Comprehensive analysis of blood pressure measurements from self-service health kiosks in US retail stores over an 8-year period, published in JAMA Cardiology.",
+  "category": "Research Publication"
+}

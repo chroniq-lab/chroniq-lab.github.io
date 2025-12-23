@@ -1,0 +1,14 @@
+{
+  "id": 20250815,
+  "slug": "cosmos_sga_bmi",
+  "shortTitle": "Weight Change from Incretin-based Medications",
+  "longTitle": "Weight Change from Incretin-based Weight Loss Medications across Categories of Second-Generation Antipsychotics",
+  "date": "2025-08-15",
+  "link": "https://doi.org/10.1038/s41366-025-01885-4",
+  "youtubeLink": "",
+  "image": "",
+  "teamMembers": ["Jithin Sam Varghese"],
+  "dataSources": ["Epic Cosmos"],
+  "summary": "Analysis of weight changes associated with incretin-based medications across different categories of second-generation antipsychotics, published in International Journal of Obesity.",
+  "category": "Research Publication"
+}

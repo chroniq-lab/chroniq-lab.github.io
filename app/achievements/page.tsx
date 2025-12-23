@@ -109,8 +109,7 @@ export default function AchievementsPage() {
               Research Achievements
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Explore our latest research publications, conference presentations, and methodological contributions 
-              to the field of statistical analysis and healthcare data science.
+              Explore our latest research publications, conference presentations, and personal achievements.
             </p>
           </div>
         </div>

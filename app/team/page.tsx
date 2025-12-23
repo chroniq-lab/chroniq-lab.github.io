@@ -123,8 +123,8 @@ export default function TeamPage() {
               Our Team
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the researchers who drive innovation 
-              in precision public health at Chroniq Lab.
+              Meet the researchers who are answering important questions
+              at the intersection of precision medicine and public health. 
             </p>
           </div>
         </div>

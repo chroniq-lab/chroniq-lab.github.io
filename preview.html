@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chroniq Lab - Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex-shrink-0">
+                        <span class="text-2xl font-bold text-primary-700">Chroniq Lab</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                    <a href="#team" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Team</a>
+                    <a href="#achievements" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Achievements</a>
+                    <a href="#tools" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Tools</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <div id="home" class="min-h-screen">
+        <!-- Hero Section -->
+        <section class="hero-gradient text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6">Welcome to Chroniq Lab</h1>
+                    <p class="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
+                        Advancing statistical analysis and research through innovative data science methodologies 
+                        and collaborative research initiatives.
+                    </p>
+                    <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
+                        <a href="#tools" class="inline-block bg-white text-primary-700 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors">
+                            Explore Our Tools
+                        </a>
+                        <a href="#team" class="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-primary-700 transition-colors">
+                            Meet Our Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Mission</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        We are dedicated to advancing the field of statistical analysis through cutting-edge research, 
+                        innovative tools, and collaborative partnerships.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center p-6 bg-white rounded-lg shadow-sm card-hover">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Statistical Analysis</h3>
+                        <p class="text-gray-600">Advanced statistical methodologies and data analysis techniques for complex research problems.</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-white rounded-lg shadow-sm card-hover">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Collaborative Research</h3>
+                        <p class="text-gray-600">Building partnerships across disciplines to tackle complex societal challenges through data.</p>
+                    </div>
+
+                    <div class="text-center p-6 bg-white rounded-lg shadow-sm card-hover">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-3">Interactive Tools</h3>
+                        <p class="text-gray-600">User-friendly calculators and visualization tools that make statistical analysis accessible to everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Team Page -->
+    <div id="team" class="min-h-screen bg-gray-50 py-16">
+        <!-- Header Section -->
+        <section class="bg-white py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Team</h1>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Meet the dedicated researchers, faculty, and students who drive innovation 
+                        in statistical analysis and data science at Chroniq Lab.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Section -->
+        <section class="py-8 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-wrap justify-center gap-2">
+                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-primary-600 text-white">All</button>
+                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">Faculty</button>
+                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">Graduate Student</button>
+                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">Undergraduate</button>
+                    <button class="px-4 py-2 rounded-full text-sm font-medium bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors">Alumni</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Team Members -->
+        <section class="py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Current Team Members</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <!-- Team Member 1 -->
+                    <div class="bg-white rounded-lg shadow-sm card-hover overflow-hidden">
+                        <div class="relative">
+                            <div class="aspect-square bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-primary-300 rounded-full flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1">Dr. Sarah Johnson</h3>
+                            <p class="text-sm text-gray-600 mb-2">Principal Investigator</p>
+                            <p class="text-xs text-primary-600 font-medium mb-3">Faculty</p>
+                            <a href="#" class="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium">
+                                <span>View Profile</span>
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 2 -->
+                    <div class="bg-white rounded-lg shadow-sm card-hover overflow-hidden">
+                        <div class="relative">
+                            <div class="aspect-square bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-primary-300 rounded-full flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1">Dr. Michael Chen</h3>
+                            <p class="text-sm text-gray-600 mb-2">Senior Research Scientist</p>
+                            <p class="text-xs text-primary-600 font-medium mb-3">Faculty</p>
+                            <a href="#" class="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium">
+                                <span>View Profile</span>
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 3 -->
+                    <div class="bg-white rounded-lg shadow-sm card-hover overflow-hidden">
+                        <div class="relative">
+                            <div class="aspect-square bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-primary-300 rounded-full flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1">Emma Rodriguez</h3>
+                            <p class="text-sm text-gray-600 mb-2">PhD Candidate</p>
+                            <p class="text-xs text-primary-600 font-medium mb-3">Graduate Student</p>
+                            <a href="#" class="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium">
+                                <span>View Profile</span>
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Team Member 4 -->
+                    <div class="bg-white rounded-lg shadow-sm card-hover overflow-hidden">
+                        <div class="relative">
+                            <div class="aspect-square bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-primary-300 rounded-full flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1">James Park</h3>
+                            <p class="text-sm text-gray-600 mb-2">Research Assistant</p>
+                            <p class="text-xs text-primary-600 font-medium mb-3">Undergraduate</p>
+                            <a href="#" class="inline-flex items-center text-sm text-primary-600 hover:text-primary-700 font-medium">
+                                <span>View Profile</span>
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alumni Section -->
+        <section class="py-12 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Alumni</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                    <!-- Alumni 1 -->
+                    <div class="bg-gray-50 rounded-lg shadow-sm card-hover overflow-hidden border-2 border-gray-200">
+                        <div class="relative">
+                            <div class="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-gray-300 rounded-full flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1">Dr. Lisa Wang</h3>
+                            <p class="text-sm text-gray-600 mb-2">Former Postdoc</p>
+                            <p class="text-xs text-gray-500 font-medium mb-3">Alumni</p>
+                            <a href="#" class="inline-flex items-center text-sm text-gray-600 hover:text-gray-700 font-medium">
+                                <span>View Profile</span>
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Alumni 2 -->
+                    <div class="bg-gray-50 rounded-lg shadow-sm card-hover overflow-hidden border-2 border-gray-200">
+                        <div class="relative">
+                            <div class="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+                                <div class="w-24 h-24 bg-gray-300 rounded-full flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-gray-500" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-semibold text-gray-900 mb-1">Alex Thompson</h3>
+                            <p class="text-sm text-gray-600 mb-2">Former Research Assistant</p>
+                            <p class="text-xs text-gray-500 font-medium mb-3">Alumni</p>
+                            <a href="#" class="inline-flex items-center text-sm text-gray-600 hover:text-gray-700 font-medium">
+                                <span>View Profile</span>
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lab Culture Section -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Lab Culture</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                    We foster an inclusive, collaborative environment where innovative thinking thrives. 
+                    Our team values intellectual curiosity, rigorous methodology, and the pursuit of 
+                    knowledge that makes a meaningful impact on society.
+                </p>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Learning</h3>
+                        <p class="text-gray-600">Continuous growth through research, mentorship, and knowledge sharing.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Collaboration</h3>
+                        <p class="text-gray-600">Working together across disciplines to solve complex problems.</p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Innovation</h3>
+                        <p class="text-gray-600">Pushing boundaries with creative approaches to statistical challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Simple smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Simple filter functionality for team page
+        const filterButtons = document.querySelectorAll('#team button');
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => {
+                    btn.className = btn.className.replace('bg-primary-600 text-white', 'bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors');
+                });
+                // Add active class to clicked button
+                this.className = this.className.replace('bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors', 'bg-primary-600 text-white');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -18,7 +18,7 @@ const teamMembers = [
     title: "PhD Candidate",
     role: "Graduate Student",
     image: "/images/team/zhongyu.jpg",
-    link: ""},
+    link: "https://www.linkedin.com/in/zhongyu-li-46680924b/"},
   {
     id: 3,
     name: "Jiali Guo",
@@ -37,19 +37,19 @@ const teamMembers = [
   {
     id: 5,
     name: "Daniel Hua",
-    title: "BS Biology",
+    title: "BS Biology 2027",
     role: "Undergraduate",
     image: "/images/team/daniel.jpg",
-    link: "https://www.danielhua.com"
+    link: "https://www.linkedin.com/in/daniel-hua-125322249/"
   },
 
   {
     id: 6,
     name: "Theo Hung",
-    title: "BS Biology",
+    title: "BS Biology 2027",
     role: "Undergraduate",
     image: "/images/team/theo-hung.jpg",
-    link: "https://linkedin.com/in/theo-hung"
+    link: "https://www.linkedin.com/in/theodore-hung-397a16279/"
   },
 
 ]
@@ -61,7 +61,7 @@ const alumni = [
     title: "BS Human Health 2026",
     role: "Alumni",
     image: "/images/team/caroline.jpg",
-    link: "",
+    link: "https://www.linkedin.com/in/caroline-chizak/",
     bio: "Applying for MPH programs"
   },
 
@@ -72,7 +72,7 @@ const alumni = [
     title: "BS Biology and Anthropology 2025",
     role: "Alumni",
     image: "/images/team/krishna.jpg",
-    link: "",
+    link: "https://www.linkedin.com/in/krishna-sanaka-b9babb214/",
     bio: "MD Student at University of Pennsylvania"
   },
 
@@ -82,7 +82,7 @@ const alumni = [
     title: "BS Human Health 2025",
     role: "Alumni",
     image: "/images/team/aamna.jpg",
-    link: "",
+    link: "https://www.linkedin.com/in/aamna-soniwala-1524561b3/",
     bio: "Applying for Dental School"
   },
 

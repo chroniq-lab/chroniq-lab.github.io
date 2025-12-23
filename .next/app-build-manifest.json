@@ -16,6 +16,15 @@
       "static/css/6752eaaa182c58af.css",
       "static/chunks/app/layout-abbc34c8860ece0a.js"
     ],
+    "/achievements/page": [
+      "static/chunks/webpack-c787c4acb1af427c.js",
+      "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
+      "static/chunks/938-291c3ebe982079c4.js",
+      "static/chunks/main-app-c6c866afba4dc4b8.js",
+      "static/chunks/250-dc2ee8318847e6e0.js",
+      "static/chunks/749-f0f8c85dedf9eb8a.js",
+      "static/chunks/app/achievements/page-6e1ce018eba04e94.js"
+    ],
     "/tools/page": [
       "static/chunks/webpack-c787c4acb1af427c.js",
       "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
@@ -24,6 +33,14 @@
       "static/chunks/749-f0f8c85dedf9eb8a.js",
       "static/chunks/app/tools/page-52a76365536015a8.js"
     ],
+    "/team/page": [
+      "static/chunks/webpack-c787c4acb1af427c.js",
+      "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
+      "static/chunks/938-291c3ebe982079c4.js",
+      "static/chunks/main-app-c6c866afba4dc4b8.js",
+      "static/chunks/749-f0f8c85dedf9eb8a.js",
+      "static/chunks/app/team/page-f2614ecc8b529d1d.js"
+    ],
     "/page": [
       "static/chunks/webpack-c787c4acb1af427c.js",
       "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
@@ -31,23 +48,6 @@
       "static/chunks/main-app-c6c866afba4dc4b8.js",
       "static/chunks/250-dc2ee8318847e6e0.js",
       "static/chunks/app/page-53c93224fb42155e.js"
-    ],
-    "/team/page": [
-      "static/chunks/webpack-c787c4acb1af427c.js",
-      "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
-      "static/chunks/938-291c3ebe982079c4.js",
-      "static/chunks/main-app-c6c866afba4dc4b8.js",
-      "static/chunks/749-f0f8c85dedf9eb8a.js",
-      "static/chunks/app/team/page-3ac59ff9473dab66.js"
-    ],
-    "/achievements/page": [
-      "static/chunks/webpack-c787c4acb1af427c.js",
-      "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
-      "static/chunks/938-291c3ebe982079c4.js",
-      "static/chunks/main-app-c6c866afba4dc4b8.js",
-      "static/chunks/250-dc2ee8318847e6e0.js",
-      "static/chunks/749-f0f8c85dedf9eb8a.js",
-      "static/chunks/app/achievements/page-445dca5b10014171.js"
     ],
     "/achievements/[slug]/page": [
       "static/chunks/webpack-c787c4acb1af427c.js",

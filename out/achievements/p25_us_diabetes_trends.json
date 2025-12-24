@@ -10,5 +10,6 @@
   "teamMembers": ["Jithin Sam Varghese"],
   "dataSources": ["Survey"],
   "summary": "Trends in diabetes care continuum based on NHANES 2017-2023 led by Jessica Harding and Chengcheng Hu.",
-  "category": "Research Publication"
+  "category": "Research Publication",
+  "citation": "Harding J., Hu C. et.al. Diabetes prevalence, awareness, and control in the United States, 2017-2023. Diabetes & Metabolism. 2025. 51(4):101659. doi:10.1016/j.diabet.2025.101659"
 }

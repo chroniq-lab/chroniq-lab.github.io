@@ -10,5 +10,6 @@
   "teamMembers": ["Jithin Sam Varghese"],
   "dataSources": ["Survey"],
   "summary": "Data-driven cluster analysis identifying hypertension phenotypes and their association with mortality risk in the United States, led by Rodrigo M. Carillo Larco.",
-  "category": "Research Publication"
+  "category": "Research Publication",
+  "citation": "Carillo Larco R.M., Varghese J.S. et.al. Hypertension Phenotypes and Mortality Risk in the United States of America: A Data-Driven Cluster Analysis. International Journal of Hypertension. 2025. 7193567. doi:10.1155/ijhy/7193567"
 }

@@ -10,5 +10,6 @@
   "teamMembers": ["Krishna Sanaka", "Jithin Sam Varghese"],
   "dataSources": ["Survey"],
   "summary": "Cross-sectional analysis of household clustering of hypertension using <strong>National Family Health Survey, 2019-2021</strong>, published in Journal of the American Heart Association.",
-  "category": "Research Publication"
+  "category": "Research Publication",
+  "citation": "Sanaka K.O., Kocher E. et.al. Household aggregation of hypertension in India: a cross-sectional study of nationally representative data from 450 thousand households. Journal of the American Heart Association. 2025. 14(24):e044340. doi:10.1161/jaha.125.044340"
 }

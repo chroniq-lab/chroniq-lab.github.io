@@ -10,5 +10,6 @@
   "teamMembers": ["Aamna Soniwala", "Sophia Kim", "Jithin Sam Varghese"],
   "dataSources": ["Others"],
   "summary": "Through the use of an annotated dataset, prompt engineering, and GPT4o, we showed that there are significant disproportionalities in the representation of populations from Southeast Asia, South Asia, and Sub-Saharan Africa in precision medicine research for diabetes.",
-  "category": "Research Publication"
+  "category": "Research Publication",
+  "citation": "Soniwala A., Kim S. et.al. A Large Language Model Analysis of Global Inequities in Precision Medicine Research on Diabetes. Annals of Epidemiology. 2025. 109:25-30. doi:10.1016/j.annepidem.2025.06.021"
 }

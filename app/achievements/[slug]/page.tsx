@@ -5,8 +5,7 @@ import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { Achievement } from '@/lib/achievements'
 import CitationSection from '@/components/CitationSection'
-import EnhancedNavigation from '@/components/EnhancedNavigation'
-import FloatingNav from '@/components/FloatingNav'
+import SimpleNavigation from '@/components/SimpleNavigation'
 import Breadcrumb from '@/components/Breadcrumb'
 
 // Generate static params for all achievement slugs
@@ -263,13 +262,12 @@ export default async function AchievementDetailPage({ params }: Props) {
             </p>
           </div>
 
-          {/* Enhanced Navigation */}
-          <EnhancedNavigation
-            currentAchievement={achievement}
-            allAchievements={allAchievements}
+          {/* Simple Navigation */}
+          <SimpleNavigation
             previousAchievement={previousAchievement}
             nextAchievement={nextAchievement}
             currentIndex={currentIndex}
+            totalCount={allAchievements.length}
           />
         </div>
       </article>
@@ -325,14 +323,6 @@ export default async function AchievementDetailPage({ params }: Props) {
           )}
         </div>
       </section>
-
-      {/* Floating Navigation */}
-      <FloatingNav
-        previousAchievement={previousAchievement}
-        nextAchievement={nextAchievement}
-        currentIndex={currentIndex}
-        totalCount={allAchievements.length}
-      />
     </div>
   )
 }

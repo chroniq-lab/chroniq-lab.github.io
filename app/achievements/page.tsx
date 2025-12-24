@@ -38,6 +38,13 @@ export default function AchievementsPage() {
   const [selectedDataSource, setSelectedDataSource] = useState<string>('')
   const [selectedCategory, setSelectedCategory] = useState<string>('')
 
+  // Helper function to strip HTML tags for preview text
+  const stripHtml = (html: string) => {
+    const temp = document.createElement('div')
+    temp.innerHTML = html
+    return temp.textContent || temp.innerText || ''
+  }
+
   useEffect(() => {
     const fetchAchievements = async () => {
       try {
@@ -65,7 +72,7 @@ export default function AchievementsPage() {
       const matchesSearch = searchTerm === '' || 
         achievement.shortTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
         achievement.longTitle.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        achievement.summary.toLowerCase().includes(searchTerm.toLowerCase())
+        stripHtml(achievement.summary).toLowerCase().includes(searchTerm.toLowerCase())
 
       const matchesTeamMember = selectedTeamMember === '' || 
         achievement.teamMembers.includes(selectedTeamMember)
@@ -253,7 +260,7 @@ export default function AchievementsPage() {
                           {achievement.shortTitle}
                         </h3>
                         <p className="text-gray-600 text-sm mb-4 line-clamp-3">
-                          {achievement.summary}
+                          {stripHtml(achievement.summary)}
                         </p>
                         <div className="flex flex-wrap gap-1 mb-3">
                           {achievement.teamMembers.slice(0, 2).map((member) => (
@@ -327,7 +334,7 @@ export default function AchievementsPage() {
                             {achievement.shortTitle}
                           </h3>
                           <p className="text-gray-600 mb-3 line-clamp-2">
-                            {achievement.summary}
+                            {stripHtml(achievement.summary)}
                           </p>
                           <div className="flex flex-wrap gap-2 mb-2">
                             {achievement.teamMembers.map((member) => (

@@ -9,6 +9,6 @@
   "image": "",
   "teamMembers": ["Zhongyu Li", "Jithin Sam Varghese"],
   "dataSources": ["Others"],
-  "summary": "Commentary on using historical patient data to identify undiagnosed diabetes and prediabetes in routine clinical care, published in Diabetes Care.",
+  "summary": "This commentary discusses the excellent research from <a href='https://diabetesjournals.org/care/article/48/5/703/157723/Derivation-and-Validation-of-D-RISK-An-Electronic'>Bowen et.al.</a> who developed and validated an EHR-based risk score to improve screening in safety net hospitals",
   "category": "Commentary"
 }

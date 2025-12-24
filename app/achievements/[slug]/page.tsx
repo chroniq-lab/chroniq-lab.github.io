@@ -165,9 +165,10 @@ export default async function AchievementDetailPage({ params }: Props) {
 
         {/* Content */}
         <div className="prose prose-lg max-w-none">
-          <div className="text-xl text-gray-700 leading-relaxed mb-8">
-            {achievement.summary}
-          </div>
+          <div 
+            className="text-xl text-gray-700 leading-relaxed mb-8"
+            dangerouslySetInnerHTML={{ __html: achievement.summary }}
+          />
 
           {/* Links Section */}
           <div className="not-prose bg-gray-50 rounded-lg p-6 my-8">

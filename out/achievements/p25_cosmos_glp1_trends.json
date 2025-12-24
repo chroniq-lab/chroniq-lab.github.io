@@ -10,5 +10,6 @@
   "teamMembers": ["Jithin Sam Varghese"],
   "dataSources": ["Epic Cosmos"],
   "summary": "An excellent analysis of prescribing trends for GLP-1 receptor agonists in patients with type 2 diabetes or obesity using electronic health records data, led by Piaopiao Li.",
-  "category": "Research Publication"
+  "category": "Research Publication",
+  "citation": "Li P, Varghese JS, et al. Prescribing Trends of Glucagon-Like Peptide 1 Receptor Agonists for Type 2 Diabetes or Obesity. JAMA Netw Open. 2025;8(9):e2540890. doi:10.1001/jamanetworkopen.2025.40890"
 }

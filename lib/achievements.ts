@@ -11,6 +11,7 @@ export interface Achievement {
   dataSources: string[];
   summary: string;
   category: string;
+  citation?: string;
 }
 
 /**

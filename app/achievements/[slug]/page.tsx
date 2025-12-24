@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { Achievement } from '@/lib/achievements'
+import CitationSection from '@/components/CitationSection'
 
 // Generate static params for all achievement slugs
 export async function generateStaticParams() {
@@ -70,6 +71,32 @@ async function getRelatedAchievements(currentAchievement: Achievement): Promise<
   }
 }
 
+async function getAllAchievements(): Promise<Achievement[]> {
+  try {
+    const achievementsDir = join(process.cwd(), 'public', 'achievements')
+    const files = await readdir(achievementsDir)
+    
+    const achievements: Achievement[] = []
+    
+    for (const file of files.filter(f => f.endsWith('.json'))) {
+      try {
+        const filePath = join(achievementsDir, file)
+        const fileContent = await readFile(filePath, 'utf-8')
+        const achievement: Achievement = JSON.parse(fileContent)
+        achievements.push(achievement)
+      } catch (error) {
+        console.warn(`Failed to load achievement file: ${file}`, error)
+      }
+    }
+    
+    // Sort by date (newest first)
+    return achievements.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  } catch (error) {
+    console.error('Failed to load all achievements:', error)
+    return []
+  }
+}
+
 interface Props {
   params: {
     slug: string
@@ -84,6 +111,12 @@ export default async function AchievementDetailPage({ params }: Props) {
   }
 
   const relatedAchievements = await getRelatedAchievements(achievement)
+  const allAchievements = await getAllAchievements()
+  
+  // Find current achievement index and navigation
+  const currentIndex = allAchievements.findIndex(a => a.slug === achievement.slug)
+  const previousAchievement = currentIndex > 0 ? allAchievements[currentIndex - 1] : null
+  const nextAchievement = currentIndex < allAchievements.length - 1 ? allAchievements[currentIndex + 1] : null
 
   const formatDate = (dateString: string) => {
     // Parse date as local date to avoid timezone issues
@@ -212,11 +245,52 @@ export default async function AchievementDetailPage({ params }: Props) {
             </div>
           </div>
 
+          {/* Citation Section */}
+          {achievement.citation && (
+            <CitationSection citation={achievement.citation} />
+          )}
+
           {/* Placeholder for future content */}
           <div className="border-t pt-8">
             <p className="text-gray-600 italic">
               Full article content and detailed analysis will be added here in the future.
             </p>
+          </div>
+
+          {/* Navigation Arrows */}
+          <div className="not-prose flex justify-between items-center py-8 border-t border-gray-200">
+            <div className="flex-1">
+              {previousAchievement && (
+                <Link 
+                  href={`/achievements/${previousAchievement.slug}`}
+                  className="group inline-flex items-center text-gray-600 hover:text-gray-900"
+                >
+                  <svg className="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                  <div className="text-left">
+                    <div className="text-sm font-medium">Previous</div>
+                    <div className="text-sm text-gray-500 line-clamp-1">{previousAchievement.shortTitle}</div>
+                  </div>
+                </Link>
+              )}
+            </div>
+            <div className="flex-1 text-right">
+              {nextAchievement && (
+                <Link 
+                  href={`/achievements/${nextAchievement.slug}`}
+                  className="group inline-flex items-center text-gray-600 hover:text-gray-900"
+                >
+                  <div className="text-right">
+                    <div className="text-sm font-medium">Next</div>
+                    <div className="text-sm text-gray-500 line-clamp-1">{nextAchievement.shortTitle}</div>
+                  </div>
+                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
+            </div>
           </div>
         </div>
       </article>

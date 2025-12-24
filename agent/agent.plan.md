@@ -41,6 +41,8 @@ A modern, responsive website for Chroniq Lab featuring statistical analysis tool
   - Option to embed YouTube link
   - Dual tagging system
   - Plain text summary of article
+  - Move between articles using an arrow button (left, right)
+  - Add Citation section which can be entered manually in the json page.
 - **Filtering System**:
   - Tag 1: Team member filter (shows work by specific researchers): Pull from team/page.tsx
   - Tag 2: Data source filter (categorizes by research methodology/data type): ['Epic Cosmos', 'Cohorts', 'Survey','Kiosk','Others']

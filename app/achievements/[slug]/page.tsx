@@ -5,6 +5,9 @@ import { readdir, readFile } from 'fs/promises'
 import { join } from 'path'
 import { Achievement } from '@/lib/achievements'
 import CitationSection from '@/components/CitationSection'
+import EnhancedNavigation from '@/components/EnhancedNavigation'
+import FloatingNav from '@/components/FloatingNav'
+import Breadcrumb from '@/components/Breadcrumb'
 
 // Generate static params for all achievement slugs
 export async function generateStaticParams() {
@@ -131,6 +134,9 @@ export default async function AchievementDetailPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Breadcrumb Navigation */}
+      <Breadcrumb achievement={achievement} allAchievements={allAchievements} />
+
       {/* Navigation */}
       <div className="bg-gray-50 border-b">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -257,41 +263,14 @@ export default async function AchievementDetailPage({ params }: Props) {
             </p>
           </div>
 
-          {/* Navigation Arrows */}
-          <div className="not-prose flex justify-between items-center py-8 border-t border-gray-200">
-            <div className="flex-1">
-              {previousAchievement && (
-                <Link 
-                  href={`/achievements/${previousAchievement.slug}`}
-                  className="group inline-flex items-center text-gray-600 hover:text-gray-900"
-                >
-                  <svg className="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                  </svg>
-                  <div className="text-left">
-                    <div className="text-sm font-medium">Previous</div>
-                    <div className="text-sm text-gray-500 line-clamp-1">{previousAchievement.shortTitle}</div>
-                  </div>
-                </Link>
-              )}
-            </div>
-            <div className="flex-1 text-right">
-              {nextAchievement && (
-                <Link 
-                  href={`/achievements/${nextAchievement.slug}`}
-                  className="group inline-flex items-center text-gray-600 hover:text-gray-900"
-                >
-                  <div className="text-right">
-                    <div className="text-sm font-medium">Next</div>
-                    <div className="text-sm text-gray-500 line-clamp-1">{nextAchievement.shortTitle}</div>
-                  </div>
-                  <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
-              )}
-            </div>
-          </div>
+          {/* Enhanced Navigation */}
+          <EnhancedNavigation
+            currentAchievement={achievement}
+            allAchievements={allAchievements}
+            previousAchievement={previousAchievement}
+            nextAchievement={nextAchievement}
+            currentIndex={currentIndex}
+          />
         </div>
       </article>
 
@@ -346,6 +325,14 @@ export default async function AchievementDetailPage({ params }: Props) {
           )}
         </div>
       </section>
+
+      {/* Floating Navigation */}
+      <FloatingNav
+        previousAchievement={previousAchievement}
+        nextAchievement={nextAchievement}
+        currentIndex={currentIndex}
+        totalCount={allAchievements.length}
+      />
     </div>
   )
 }

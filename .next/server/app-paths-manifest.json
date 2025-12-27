@@ -1,8 +1,6 @@
 {
-  "/not-found": "app/not-found.js",
-  "/team/page": "app/team/page.js",
   "/page": "app/page.js",
-  "/achievements/page": "app/achievements/page.js",
   "/api/achievements/route": "app/api/achievements/route.js",
-  "/achievements/[slug]/page": "app/achievements/[slug]/page.js"
+  "/achievements/[slug]/page": "app/achievements/[slug]/page.js",
+  "/achievements/page": "app/achievements/page.js"
 }

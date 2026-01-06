@@ -13,9 +13,10 @@ const teamMembers = [
   "Ruwanthi Ekanayake",
   "Daniel Hua",
   "Theo Hung",
+  "Caroline Chizak",
+  "Krishna Sanaka",
   "Aamna Soniwala",
-  "Sophia Kim",
-  "Krishna Sanaka"
+  "Sophia Kim"
 ]
 
 // Data sources for filtering (as specified in the plan)

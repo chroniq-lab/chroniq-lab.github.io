@@ -16,10 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/achievements/page.js"
     ],
-    "/achievements/[slug]/page": [
+    "/team/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/achievements/[slug]/page.js"
+      "static/chunks/app/team/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

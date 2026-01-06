@@ -1,8 +1,8 @@
-// File: /Users/jithinsv/Desktop/code/chroniq-lab.github.io/app/achievements/[slug]/page.tsx
-import * as entry from '../../../../../app/achievements/[slug]/page.js'
+// File: /Users/jithinsv/Desktop/code/chroniq-lab.github.io/app/team/page.tsx
+import * as entry from '../../../../app/team/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../app/achievements/[slug]/page.js')
+type TEntry = typeof import('../../../../app/team/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

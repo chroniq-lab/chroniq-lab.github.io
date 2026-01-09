@@ -1,7 +1,7 @@
 {
   "id": 20250806,
   "slug": "p25_national_spatial_kiosks",
-  "shortTitle": "Blood Pressure Measurements from Health Kiosks in JAMA Cardiology",
+  "shortTitle": "Blood Pressure Measurements from Health Kiosks in <i>JAMA Cardiology</i>",
   "longTitle": "Blood Pressure Measurements from Self-Service Health Kiosks in US Retail Stores, 2017 – 2024",
   "date": "2025-08-06",
   "link": "https://doi.org/10.1001/jamacardio.2025.2487",
@@ -11,5 +11,6 @@
   "dataSources": ["Kiosk"],
   "summary": "A critical gap in understanding the care continuum of high blood pressure in the United States is the declining survey non-response for NHANES. <br><br>As part of a collaboration with Pursuant Health, Thomas Hsiao conducted a comprehensive comparison of estimates of high blood pressure categories from NHANES between 2017-2024 in two-year intervals, with those from self-service health kiosks located in all Walmarts and select CVS stores in the country. <br><br> Read more about the collaboration <strong><a href='https://news.emory.edu/stories/2025/08/hs_blood_pressure_study_07-08-2025/story.html'>here</a></strong>. <br><br> We were also honored to receive an <strong><a href = 'https://jamanetwork.com/journals/jamacardiology/article-abstract/2837243'>Editorial Comment</a></strong> from Sadiya Khan, Robert A. Harrington, and Faraz S. Ahmad </br></br>",
   "category": "Research Publication",
+  "featured": true,
   "citation": "Hsiao T., Varghese J.S. et.al. Blood Pressure Measurements from Self-Service Health Kiosks in US Retail Stores, 2017 – 2024. JAMA Cardiology. 2025. 10(10). doi:10.1001/jamacardio.2025.2487"
 }

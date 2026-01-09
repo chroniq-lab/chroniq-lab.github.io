@@ -39,7 +39,9 @@ export default function SimpleNavigation({
               </svg>
               <div className="text-left min-w-0">
                 <div className="text-sm font-medium text-gray-900">Previous</div>
-                <div className="text-sm text-gray-500 truncate">{previousAchievement.shortTitle}</div>
+                <div className="text-sm text-gray-500 truncate">
+                  <span dangerouslySetInnerHTML={{ __html: previousAchievement.shortTitle }} />
+                </div>
               </div>
             </Link>
           ) : (
@@ -63,7 +65,9 @@ export default function SimpleNavigation({
             >
               <div className="text-right min-w-0 mr-3">
                 <div className="text-sm font-medium text-gray-900">Next</div>
-                <div className="text-sm text-gray-500 truncate">{nextAchievement.shortTitle}</div>
+                <div className="text-sm text-gray-500 truncate">
+                  <span dangerouslySetInnerHTML={{ __html: nextAchievement.shortTitle }} />
+                </div>
               </div>
               <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />

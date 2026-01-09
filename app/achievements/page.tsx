@@ -236,7 +236,9 @@ export default function AchievementsPage() {
                     href={`/achievements/${achievement.slug}`}
                     className="group"
                   >
-                    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden">
+                    <div className={`rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 overflow-hidden ${
+                      achievement.featured ? 'bg-yellow-50 border border-yellow-200' : 'bg-white'
+                    }`}>
                       {achievement.image && (
                         <div className="aspect-video relative overflow-hidden">
                           <Image
@@ -250,15 +252,17 @@ export default function AchievementsPage() {
                       )}
                       <div className="p-6">
                         <div className="flex items-center justify-between mb-2">
-                          <span className="text-xs font-medium text-blue-600 uppercase tracking-wide">
-                            {achievement.category}
-                          </span>
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs font-medium text-blue-600 uppercase tracking-wide">
+                              {achievement.category}
+                            </span>
+                          </div>
                           <span className="text-sm text-gray-500">
                             {formatDate(achievement.date)}
                           </span>
                         </div>
                         <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                          {achievement.shortTitle}
+                          <span dangerouslySetInnerHTML={{ __html: achievement.shortTitle }} />
                         </h3>
                         <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                           {stripHtml(achievement.summary)}
@@ -309,7 +313,9 @@ export default function AchievementsPage() {
                     href={`/achievements/${achievement.slug}`}
                     className="group"
                   >
-                    <div className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 p-6">
+                    <div className={`rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200 p-6 ${
+                      achievement.featured ? 'bg-yellow-50 border border-yellow-200' : 'bg-white'
+                    }`}>
                       <div className="flex gap-6">
                         {achievement.image && (
                           <div className="flex-shrink-0 w-24 h-24 relative overflow-hidden rounded-lg">
@@ -324,15 +330,17 @@ export default function AchievementsPage() {
                         )}
                         <div className="flex-1 min-w-0">
                           <div className="flex items-center justify-between mb-2">
-                            <span className="text-xs font-medium text-blue-600 uppercase tracking-wide">
-                              {achievement.category}
-                            </span>
+                            <div className="flex items-center gap-2">
+                              <span className="text-xs font-medium text-blue-600 uppercase tracking-wide">
+                                {achievement.category}
+                              </span>
+                            </div>
                             <span className="text-sm text-gray-500 flex-shrink-0">
                               {formatDate(achievement.date)}
                             </span>
                           </div>
                           <h3 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">
-                            {achievement.shortTitle}
+                            <span dangerouslySetInnerHTML={{ __html: achievement.shortTitle }} />
                           </h3>
                           <p className="text-gray-600 mb-3 line-clamp-2">
                             {stripHtml(achievement.summary)}

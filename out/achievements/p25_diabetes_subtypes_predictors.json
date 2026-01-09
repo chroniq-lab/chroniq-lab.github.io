@@ -1,7 +1,7 @@
 {
   "id": 20251128,
   "slug": "p25_diabetes_subtypes_predictors",
-  "shortTitle": "Pathophysiological Risk Factors for Diabetes Subtypes in Diabetes Care",
+  "shortTitle": "Pathophysiological Risk Factors for Diabetes Subtypes in <i>Diabetes Care</i>",
   "longTitle": "Pathophysiological Risk Factors Preceding Incidence of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States",
   "date": "2025-11-28",
   "link": "",
@@ -11,5 +11,6 @@
   "dataSources": ["Cohorts"],
   "summary": "Jiali led this analysis to identify if routine clinical biomarkers collected at single time-points in the period before diagnosis can distinguish between subtypes at diagnosis. We found that single time point biomarkers were insufficient to distinguish between the four subtypes, likely due to the non-linear nature of disease progression, especially in the three to five years before diagnosis. <br><br> The paper was accepted for publication in <strong>Diabetes Care</strong>, the journal of the American Diabetes Association</br></br>",
   "category": "Research Publication",
+  "featured": true,
   "citation": "Guo J., Li Z. et.al. Pathophysiological Risk Factors Preceding Incidence of Type 2 Diabetes Subtypes: A Pooled Cohort Study in the United States. Diabetes Care. 2025. Accepted for publication."
 }

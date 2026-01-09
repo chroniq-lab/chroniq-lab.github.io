@@ -1,7 +1,7 @@
 {
   "id": 20251203,
   "slug": "p25_county_spatial_kiosks",
-  "shortTitle": "County Prevalence and Control of High Blood Pressure in Hypertension",
+  "shortTitle": "County Prevalence and Control of High Blood Pressure in <i>Hypertension</i>",
   "longTitle": "County Prevalence and Control of High Blood Pressure From Health Kiosks in the United States, 2017–2024",
   "date": "2025-12-03",
   "link": "https://doi.org/10.1161/HYPERTENSIONAHA.125.25829",
@@ -11,5 +11,6 @@
   "dataSources": ["Kiosk"],
   "summary": "Leveraging our collaboration with Pursuant Health, Thomas Hsiao led the estimation of the high blood pressure care continuum at subnational levels using multilevel regression and poststratification. The strength of this study is that it allows us to better understand blood pressure management among populations that have been historically underserved with regards to their health care access and quality. This prevents them from being reflected in electronic health records. The same populations also tend to not respond to surveys like NHANES. <br><br> These estimates augment those from the Centers of Disease Control & Prevention by <a href='https://www.cdc.gov/pcd/issues/2024/24_0185.htm#2'>Weng et.al.</a> who used a different methodology and electronic health records from IQVIA to estimate similar indicators.</br></br>",
   "category": "Research Publication",
+  "featured": true,
   "citation": "Hsiao T., Fede L. et.al. County Prevalence and Control of High Blood Pressure From Health Kiosks in the United States, 2017–2024. Hypertension. 2025. doi:10.1161/HYPERTENSIONAHA.125.25829"
 }

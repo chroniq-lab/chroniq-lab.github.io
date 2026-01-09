@@ -12,6 +12,7 @@ export interface Achievement {
   summary: string;
   category: string;
   citation?: string;
+  featured?: boolean;
 }
 
 /**

@@ -1,7 +1,7 @@
 {
   "id": 20251223,
   "slug": "p25_diabetes_subtypes_cohorts",
-  "shortTitle": "Translating subtypes from cohorts to EHRs in Diabetologia",
+  "shortTitle": "Translating subtypes from cohorts to EHRs in <i>Diabetologia</i>",
   "longTitle": "Subtypes of Newly Diagnosed Type 2 Diabetes and Risk of Complications: Analysis of Electronic Health Records in the United States",
   "date": "2025-12-23",
   "link": "https://www.medrxiv.org/content/10.1101/2024.10.08.24315128v2",
@@ -11,5 +11,6 @@
   "dataSources": ["Epic Cosmos", "Cohorts"],
   "summary": "Zhongyu led the translation of the four subtypes of type 2 diabetes from cohorts to Epic Cosmos. The subtypes were replicable only using age, HbA1c, BMI, and homeostatic indices. The scientific advance was the development of models to identify subtypes in EHRs using variables that are routinely collected in clinical settings. This is important since fasting glucose and insulin that are required to calculate homeostatic indices are collected in <1% of patients in Epic Cosmos. The models showed strong performance in an independent test dataset, and criterion validity with microvascular and macrovascular complications. We also conducted several sensitivity analyses, comparing these to traditional risk score exposures and negative control outcomes.<br><br> The paper was accepted for publication in <strong>Diabetologia</strong>, the journal of the European Association for the Study of Diabetes</br></br>",
   "category": "Research Publication",
+  "featured": true,
   "citation": "Li Z., Liu S. et.al. Subtypes of Newly Diagnosed Type 2 Diabetes and Risk of Complications: Analysis of Electronic Health Records in the United States. Diabetologia. 2025. Accepted for publication."
 }

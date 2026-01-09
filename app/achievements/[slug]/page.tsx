@@ -306,7 +306,7 @@ export default async function AchievementDetailPage({ params }: Props) {
                         </span>
                       </div>
                       <h3 className="text-sm font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
-                        {relatedAchievement.shortTitle}
+                        <span dangerouslySetInnerHTML={{ __html: relatedAchievement.shortTitle }} />
                       </h3>
                       <p className="text-gray-600 text-xs line-clamp-3">
                         {relatedAchievement.summary}

@@ -48,7 +48,7 @@ const teamMembers = [
     name: "Theo Hung",
     title: "BS Biology 2027",
     role: "Undergraduate",
-    image: "/images/team/theo-hung.jpg",
+    image: "/images/team/theo.jpg",
     link: "https://www.linkedin.com/in/theodore-hung-397a16279/"
   },
 

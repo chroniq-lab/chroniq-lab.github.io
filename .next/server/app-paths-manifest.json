@@ -1,9 +1,4 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/achievements/page": "app/achievements/page.js",
-  "/api/achievements/route": "app/api/achievements/route.js",
   "/page": "app/page.js",
-  "/team/page": "app/team/page.js",
-  "/tools/page": "app/tools/page.js",
-  "/achievements/[slug]/page": "app/achievements/[slug]/page.js"
+  "/team/page": "app/team/page.js"
 }

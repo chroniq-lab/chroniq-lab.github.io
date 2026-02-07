@@ -16,14 +16,6 @@
       "static/css/0c50b86be2c4a824.css",
       "static/chunks/app/layout-e25786e99a5e7813.js"
     ],
-    "/page": [
-      "static/chunks/webpack-7ec0d3ade7dbb847.js",
-      "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
-      "static/chunks/938-291c3ebe982079c4.js",
-      "static/chunks/main-app-c6c866afba4dc4b8.js",
-      "static/chunks/250-dc2ee8318847e6e0.js",
-      "static/chunks/app/page-53c93224fb42155e.js"
-    ],
     "/achievements/page": [
       "static/chunks/webpack-7ec0d3ade7dbb847.js",
       "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
@@ -33,13 +25,13 @@
       "static/chunks/749-f0f8c85dedf9eb8a.js",
       "static/chunks/app/achievements/page-8e3d38c4d13f71ed.js"
     ],
-    "/team/page": [
+    "/page": [
       "static/chunks/webpack-7ec0d3ade7dbb847.js",
       "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
       "static/chunks/938-291c3ebe982079c4.js",
       "static/chunks/main-app-c6c866afba4dc4b8.js",
-      "static/chunks/749-f0f8c85dedf9eb8a.js",
-      "static/chunks/app/team/page-3613d1048538378b.js"
+      "static/chunks/250-dc2ee8318847e6e0.js",
+      "static/chunks/app/page-53c93224fb42155e.js"
     ],
     "/tools/page": [
       "static/chunks/webpack-7ec0d3ade7dbb847.js",
@@ -48,6 +40,14 @@
       "static/chunks/main-app-c6c866afba4dc4b8.js",
       "static/chunks/749-f0f8c85dedf9eb8a.js",
       "static/chunks/app/tools/page-52a76365536015a8.js"
+    ],
+    "/team/page": [
+      "static/chunks/webpack-7ec0d3ade7dbb847.js",
+      "static/chunks/fd9d1056-d6db233bb28f7f7d.js",
+      "static/chunks/938-291c3ebe982079c4.js",
+      "static/chunks/main-app-c6c866afba4dc4b8.js",
+      "static/chunks/749-f0f8c85dedf9eb8a.js",
+      "static/chunks/app/team/page-5616b72fa305dd66.js"
     ],
     "/achievements/[slug]/page": [
       "static/chunks/webpack-7ec0d3ade7dbb847.js",

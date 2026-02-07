@@ -32,7 +32,7 @@ const teamMembers = [
     title: "MD/PhD Student",
     role: "Graduate Student",
     image: "/images/team/ruwanthi.jpg",
-    link: "https://sph.emory.edu/profile/phd-student/ruwanthi-ekanayake"
+    link: "https://sph.emory.edu/profile/phd-student/ruwanthi-ekanayaken"
   },
   {
     id: 5,

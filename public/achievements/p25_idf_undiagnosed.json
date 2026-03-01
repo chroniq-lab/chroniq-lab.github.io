@@ -4,13 +4,17 @@
   "shortTitle": "Prevalence of Undiagnosed Diabetes in <i>Diabetes Care</i>",
   "longTitle": "Global, Regional, and National Estimates of Undiagnosed Diabetes in Adults: Findings From the 2025 IDF Diabetes Atlas",
   "date": "2025-12-22",
-  "link": "https://doi.org/10.2337/dc25-2583",
+  "link": "https://diabetesjournals.org/care/article-abstract/doi/10.2337/dc25-2583/164378/Global-Regional-and-National-Estimates-of?redirectedFrom=fulltext",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese"],
-  "dataSources": ["Others"],
-  "summary": "As part of the <a href = \"https://idf.org\">International Diabetes Federation</a> Undiagnosed Diabetes working group, Felix Teufel led this study that described the variability of undiagnosed diabetes prevalence globally. <br><br> The paper was published in <strong>Diabetes Care</strong>, the journal of the American Diabetes Association</br></br>.",
+  "teamMembers": [
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Others"
+  ],
+  "summary": "As part of the <a href=\"https://idf.org\">International Diabetes Federation</a> Undiagnosed Diabetes working group, Felix Teufel led this study that described the variability of undiagnosed diabetes prevalence globally. <br><br> The paper was published in <strong>Diabetes Care</strong>, the journal of the American Diabetes Association</br></br>.",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Teufel F., Orgutsova K. et.al. Global, Regional, and National Estimates of Undiagnosed Diabetes in Adults: Findings From the 2025 IDF Diabetes Atlas. Diabetes Care. 2026."
 }
-

@@ -4,12 +4,18 @@
   "shortTitle": "Commentary: Leveraging Historical Patient Data in <i>Diabetes Care</i>",
   "longTitle": "Commentary: Leveraging historical patient data to identify undiagnosed diabetes and prediabetes in routine care",
   "date": "2025-02-19",
-  "link": "https://doi.org/10.2337/dci25-0011",
+  "link": "https://diabetesjournals.org/care/article/48/5/682/158151/Leveraging-Historical-Patient-Data-to-Identify",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Zhongyu Li", "Jithin Sam Varghese"],
-  "dataSources": ["Others"],
+  "teamMembers": [
+    "Zhongyu Li",
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Others"
+  ],
   "summary": "This commentary discusses the excellent research from <a href='https://diabetesjournals.org/care/article/48/5/703/157723/Derivation-and-Validation-of-D-RISK-An-Electronic'>Bowen et.al.</a> who developed and validated an EHR-based risk score to improve screening in safety net hospitals",
   "category": "Commentary",
+  "featured": false,
   "citation": "Li Z., Ali M.K. and Varghese J.S. Leveraging historical patient data to identify undiagnosed diabetes and prediabetes in routine care. Diabetes Care. 2025;48(5):682-684. doi:10.2337/dci25-0011"
 }

@@ -1,15 +1,20 @@
 {
   "id": 20250701,
   "slug": "p25_us_diabetes_trends",
-  "shortTitle": "Diabetes Prevalence, Awareness, and Control in US in <i>Diabetes & Metabolism</i>",
-  "longTitle": "Diabetes prevalence, awareness, and control in the United States, 2017-2023",
+  "shortTitle": "Diabetes Prevalence, Awareness, and Control in US in <i>Diabetes &amp; Metabolism</i>",
+  "longTitle": "Diabetes prevalence, awareness, and control in the United States, 2017--2023",
   "date": "2025-07-01",
-  "link": "https://doi.org/10.1016/j.diabet.2025.101659",
+  "link": "https://www.sciencedirect.com/science/article/abs/pii/S1262363625000540",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese"],
-  "dataSources": ["Survey"],
+  "teamMembers": [
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Survey"
+  ],
   "summary": "Trends in diabetes care continuum based on NHANES 2017-2023 led by Jessica Harding and Chengcheng Hu.",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Harding J., Hu C. et.al. Diabetes prevalence, awareness, and control in the United States, 2017-2023. Diabetes & Metabolism. 2025. 51(4):101659. doi:10.1016/j.diabet.2025.101659"
 }

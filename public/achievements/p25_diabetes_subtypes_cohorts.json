@@ -7,10 +7,16 @@
   "link": "https://link.springer.com/article/10.1007/s00125-026-06687-5",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Zhongyu Li", "Jithin Sam Varghese"],
-  "dataSources": ["Epic Cosmos", "Cohorts"],
+  "teamMembers": [
+    "Zhongyu Li",
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Epic Cosmos",
+    "Cohorts"
+  ],
   "summary": "Zhongyu led the translation of the four subtypes of type 2 diabetes from cohorts to Epic Cosmos. The subtypes were replicable only using age, HbA1c, BMI, and homeostatic indices. The scientific advance was the development of models to identify subtypes in EHRs using variables that are routinely collected in clinical settings. This is important since fasting glucose and insulin that are required to calculate homeostatic indices are collected in <1% of patients in Epic Cosmos. The models showed strong performance in an independent test dataset, and criterion validity with microvascular and macrovascular complications. We also conducted several sensitivity analyses, comparing these to traditional risk scores and negative control outcomes.<br><br> The paper was accepted for publication in <strong>Diabetologia</strong>, the journal of the European Association for the Study of Diabetes</br></br>",
   "category": "Research Publication",
   "featured": true,
-  "citation": "Li Z., Liu S. et.al. Subtypes of Newly Diagnosed Type 2 Diabetes and Risk of Complications: Analysis of Electronic Health Records in the United States. Diabetologia. 2025. Accepted for publication."
+  "citation": "Li Z., Liu S. et.al. Subtypes of Newly Diagnosed Type 2 Diabetes and Risk of Complications: Analysis of Electronic Health Records in the United States. Diabetologia. 2026. doi:10.1007/s00125-026-06687-5"
 }

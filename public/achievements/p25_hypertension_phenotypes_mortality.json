@@ -4,12 +4,17 @@
   "shortTitle": "Hypertension Phenotypes and Mortality Risk in <i>International Journal of Hypertension</i>",
   "longTitle": "Hypertension Phenotypes and Mortality Risk in the United States of America: A Data-Driven Cluster Analysis",
   "date": "2025-12-12",
-  "link": "https://doi.org/10.1155/ijhy/7193567",
+  "link": "https://onlinelibrary.wiley.com/doi/10.1155/ijhy/7193567",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese"],
-  "dataSources": ["Survey"],
+  "teamMembers": [
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Survey"
+  ],
   "summary": "Data-driven cluster analysis identifying hypertension phenotypes and their association with mortality risk in the United States, led by Rodrigo M. Carillo Larco.",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Carillo Larco R.M., Varghese J.S. et.al. Hypertension Phenotypes and Mortality Risk in the United States of America: A Data-Driven Cluster Analysis. International Journal of Hypertension. 2025. 7193567. doi:10.1155/ijhy/7193567"
 }

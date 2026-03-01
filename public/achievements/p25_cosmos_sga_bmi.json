@@ -4,12 +4,17 @@
   "shortTitle": "Weight Change from Incretin-based Medications in <i>Int J Obesity</i>",
   "longTitle": "Weight Change from Incretin-based Weight Loss Medications across Categories of Second-Generation Antipsychotics",
   "date": "2025-08-15",
-  "link": "https://doi.org/10.1038/s41366-025-01885-4",
+  "link": "https://www.nature.com/articles/s41366-025-01885-4",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese"],
-  "dataSources": ["Epic Cosmos"],
-  "summary": "Using target trial emulation approaches (propensity score matching, inverse probability weighting), we estiamted weight change in the six months following semaglutide/tirzepatide prescriptions among those who were prescribed second generation antipsychotic. <br><br>A useful (and expected) finding was that patients prescribed antipsychotics with highest antipsychotic induced weight gain lost the least weight, while those prescribed antipsychotics with lower antipsychotic induced weight gain lost more weight. </br></br>",
+  "teamMembers": [
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Epic Cosmos"
+  ],
+  "summary": "Using target trial emulation approaches (propensity score matching, inverse probability weighting), we estimated weight change in the six months following semaglutide/tirzepatide prescriptions among those who were prescribed second generation antipsychotics. <br><br>A useful (and expected) finding was that patients prescribed antipsychotics with highest antipsychotic induced weight gain lost the least weight, while those prescribed antipsychotics with lower antipsychotic induced weight gain lost more weight. </br></br>",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Varghese J.S., Goldsmith D.R. et.al. Weight Change from Incretin-based Weight Loss Medications across Categories of Second-Generation Antipsychotics. International Journal of Obesity. 2025;49:2544-2548. doi:10.1038/s41366-025-01885-4"
 }

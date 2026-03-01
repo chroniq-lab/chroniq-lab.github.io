@@ -4,12 +4,17 @@
   "shortTitle": "Depressive Symptoms and Glycemic Control in <i>Annals of Behavioral Medicine</i>",
   "longTitle": "Depressive Symptoms Are Not Longitudinally Associated with Joint Glycemic, Blood Pressure, and Cholesterol Control Among Middle-Aged and Older Adults with Diabetes in USA",
   "date": "2025-02-26",
-  "link": "https://doi.org/10.1093/abm/kaaf015",
+  "link": "https://academic.oup.com/abm/article-abstract/59/1/kaaf015/8042876?redirectedFrom=fulltext",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese"],
-  "dataSources": ["Cohorts"],
+  "teamMembers": [
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Cohorts"
+  ],
   "summary": "Consistent with several studies, we found that after adjusting for historical glycemic, blood pressure, and cholesterol control, depressive symptoms were <strong>not</strong> associated with future metabolic control.",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Varghese N.M and Varghese J.S. Depressive Symptoms Are Not Longitudinally Associated with Joint Glycemic, Blood Pressure, and Cholesterol Control Among Middle-Aged and Older Adults with Diabetes in USA. Annals of Behavioral Medicine. 2025. 59:1. doi: 10.1093/abm/kaaf015"
 }

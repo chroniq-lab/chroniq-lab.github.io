@@ -4,13 +4,19 @@
   "shortTitle": "Overweight and obesity from EHRs and Kiosks in <i>Obesity</i>",
   "longTitle": "National, state, and county estimates of adult overweight and obesity from electronic health records and kiosks",
   "date": "2026-01-05",
-  "link": "https://doi.org/10.1002/oby.70141",
+  "link": "https://doi.org/10.1111/oby.70141",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese","Caroline Chizak"],
-  "dataSources": ["Epic Cosmos", "Kiosk"],
+  "teamMembers": [
+    "Jithin Sam Varghese",
+    "Caroline Chizak"
+  ],
+  "dataSources": [
+    "Epic Cosmos",
+    "Kiosk"
+  ],
   "summary": "In the absence of objectively measured weight data from national surveys at the county level, we used EHR data from Epic Cosmos and user data from Pursuant Health kiosks to estimate prevalence of overweight and obesity.",
   "category": "Research Publication",
   "featured": true,
-  "citation": "Varghese J.S., Hsiao T.W. et.al. National, state, and county estimates of adult overweight and obesity from electronic health records and kiosks. Obesity. 2026. Accepted."
+  "citation": "Varghese J.S., Hsiao T.W. et.al. National, state, and county estimates of adult overweight and obesity from electronic health records and kiosks. Obesity. 2026. doi:10.1111/oby.70141"
 }

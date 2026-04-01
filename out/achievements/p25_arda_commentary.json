@@ -4,12 +4,17 @@
   "shortTitle": "Commentary: Diabetic Retinopathy Screening in India in <i>JAMA Network Open</i>",
   "longTitle": "Commentary: Closing gaps in diabetic retinopathy screening in India using a deep learning system",
   "date": "2025-03-19",
-  "link": "https://doi.org/10.1001/jamanetworkopen.2025.0991",
+  "link": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2831705",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jithin Sam Varghese"],
-  "dataSources": ["Others"],
+  "teamMembers": [
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Others"
+  ],
   "summary": "Commentary discussing the potential of deep learning systems to address gaps in diabetic retinopathy screening in India.<br><br>This work highlights how artificial intelligence can revolutionize healthcare delivery in resource-limited settings. We examine the <a href='https://pubmed.ncbi.nlm.nih.gov/40105843/' target='_blank' class='text-blue-600 hover:underline'>original research by Brant et al.</a> and discuss implementation challenges.<br><br>Published in <strong>JAMA Network Open</strong>, this commentary provides insights for policymakers and healthcare providers.",
   "category": "Commentary",
+  "featured": false,
   "citation": "Ong S.S., Varghese J.S. Closing gaps in diabetic retinopathy screening in India using a deep learning system. JAMA Netw Open. 2025;8(3):e2500991. doi:10.1001/jamanetworkopen.2025.0991"
 }

@@ -4,12 +4,19 @@
   "shortTitle": "Global Inequities in Precision Medicine Research in <i>Annals of Epidemiology</i>",
   "longTitle": "A Large Language Model Analysis of Global Inequities in Precision Medicine Research on Diabetes",
   "date": "2025-06-30",
-  "link": "https://doi.org/10.1016/j.annepidem.2025.06.021",
+  "link": "https://www.sciencedirect.com/science/article/abs/pii/S1047279725001437?via%3Dihub",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Aamna Soniwala", "Sophia Kim", "Jithin Sam Varghese"],
-  "dataSources": ["Others"],
+  "teamMembers": [
+    "Aamna Soniwala",
+    "Sophia Kim",
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Others"
+  ],
   "summary": "Through the use of an annotated dataset, prompt engineering, and GPT4o, we showed that there are significant disproportionalities in the representation of populations from Southeast Asia, South Asia, and Sub-Saharan Africa in precision medicine research for diabetes.",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Soniwala A., Kim S. et.al. A Large Language Model Analysis of Global Inequities in Precision Medicine Research on Diabetes. Annals of Epidemiology. 2025. 109:25-30. doi:10.1016/j.annepidem.2025.06.021"
 }

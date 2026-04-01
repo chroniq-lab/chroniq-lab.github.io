@@ -2,14 +2,20 @@
   "id": 20251226,
   "slug": "p25_cosmos_sga_monitoring",
   "shortTitle": "Metabolic monitoring among antipsychotic users with diabetes in US in <i>Psychiatry Research</i>",
-  "longTitle": "Metabolic Monitoring and Control among Patients with Type 2 Diabetes Prescribed second Generation Antipsychotics",
+  "longTitle": "Metabolic monitoring and control among patients with type 2 diabetes prescribed second generation antipsychotics",
   "date": "2025-12-26",
   "link": "https://www.sciencedirect.com/science/article/abs/pii/S0165178125005700",
   "youtubeLink": "",
   "image": "",
-  "teamMembers": ["Jiali Guo","Jithin Sam Varghese"],
-  "dataSources": ["Epic Cosmos"],
-  "summary": "Using a large EHR cohort of newly diagnosed T2D from Epic Cosmos (n = 469,503), we examined monitoring and control of HbA1c (≤8%), blood pressure (≤140/90 mmHg) and LDL cholesterol (≤n100mg/dL) in the three years after cohort entry (i.e., index prescription). Index prescription was categorized as second generation antipsychotics (SGA), those not prescribed SGA but prescribed first generation antipsychotics (FGA), and those prescribed neither in the two years after T2D diagnosis.",
+  "teamMembers": [
+    "Jiali Guo",
+    "Jithin Sam Varghese"
+  ],
+  "dataSources": [
+    "Epic Cosmos"
+  ],
+  "summary": "Using a large EHR cohort of newly diagnosed T2D from Epic Cosmos (n = 469,503), we examined monitoring and control of HbA1c (≤8%), blood pressure (≤140/90 mmHg) and LDL cholesterol (≤100mg/dL) in the three years after cohort entry (i.e., index prescription). Index prescription was categorized as second generation antipsychotics (SGA), those not prescribed SGA but prescribed first generation antipsychotics (FGA), and those prescribed neither in the two years after T2D diagnosis.",
   "category": "Research Publication",
+  "featured": false,
   "citation": "Guo J., Cotes R.O. et.al. Metabolic Monitoring and Control among Patients with Type 2 Diabetes Prescribed second Generation Antipsychotics. Psychiatry Research. 2026. 357:116925."
 }

@@ -21,18 +21,19 @@ const teamMembers = [
     link: "https://www.linkedin.com/in/zhongyu-li-46680924b/"},
   {
     id: 3,
-    name: "Jiali Guo",
-    title: "Biostatistician",
-    role: "Staff",
-    image: "/images/team/jiali.jpg",
-    link: "https://www.jialiguo.com"  },
-  {
-    id: 4,
     name: "Ruwanthi Ekanayake",
     title: "MD/PhD Student",
     role: "Graduate Student",
     image: "/images/team/ruwanthi.jpg",
     link: "https://sph.emory.edu/profile/phd-student/ruwanthi-ekanayaken"
+  },
+    {
+    id: 4,
+    name: "Theo Hung",
+    title: "BS Biology 2027",
+    role: "Undergraduate",
+    image: "/images/team/theo.jpg",
+    link: "https://www.linkedin.com/in/theodore-hung-397a16279/"
   },
   {
     id: 5,
@@ -41,20 +42,20 @@ const teamMembers = [
     role: "Undergraduate",
     image: "/images/team/daniel.jpg",
     link: "https://www.linkedin.com/in/daniel-hua-125322249/"
-  },
+  }
 
-  {
-    id: 6,
-    name: "Theo Hung",
-    title: "BS Biology 2027",
-    role: "Undergraduate",
-    image: "/images/team/theo.jpg",
-    link: "https://www.linkedin.com/in/theodore-hung-397a16279/"
-  },
 
 ]
 
 const alumni = [
+    {
+    id: 6,
+    name: "Jiali Guo",
+    title: "Biostatistician",
+    role: "Staff",
+    image: "/images/team/jiali.jpg",
+    link: "https://www.jialiguo.com"  },
+
   {
     id: 7,
     name: "Caroline Chizak",
